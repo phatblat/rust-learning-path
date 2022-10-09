@@ -25,4 +25,7 @@ fn main() {
     let shadow_num = shadow_num * 2;
 
     println!("The shadowed number is {}.", shadow_num);
+
+    let number: u32 = 14;
+    println!("The u32 number is {}.", number);
 }
