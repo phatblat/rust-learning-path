@@ -38,4 +38,19 @@ fn main() {
     // Declare variable to store result of "greater than" test, Is 1 > 4? -- false
     let is_bigger = 1 > 4;
     println!("Is 1 > 4? {}", is_bigger);
+
+    // Specify the data type "char"
+    let uppercase_s: char = 'S';
+    let lowercase_f: char = 'f';
+
+    // Compiler interprets a single item in quotations as the "char" data type
+    let smiley_face = '😃';
+
+    // Compiler interprets a series of items in quotations as a "str" data type and creates a "&str" reference
+    let string_1 = "miley ";
+
+    // Specify the data type "str" with the reference syntax "&str"
+    let string_2: &str = "ace";
+
+    println!("{} is a {}{}{}{}.", smiley_face, uppercase_s, string_1, lowercase_f, string_2);
 }
